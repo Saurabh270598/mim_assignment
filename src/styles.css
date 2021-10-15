@@ -1,0 +1,50 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+.btn {
+  align-items: center;
+  width: 150px;
+  height: 45px;
+  margin: 10px;
+  border: none;
+  background-color: lightgreen;
+  color: white;
+  border-radius: 8px;
+  font-size: 20px;
+  cursor: pointer;
+}
+.container {
+  display: flex;
+  flex-flow: column;
+  height: 100%;
+  align-items: space-around;
+  justify-content: center;
+}
+.userInput {
+  display: flex;
+  justify-content: center;
+}
+input {
+  margin: 10px;
+  height: 35px;
+  width: 65px;
+  border: none;
+  border-radius: 5px;
+  text-align: center;
+  font-family: arimo;
+  font-size: 1.2rem;
+  background: #eef2f3;
+}
+button {
+  width: 150px;
+  height: 40px;
+  margin: 25px auto 0px auto;
+  font-size: 17px;
+  border: none;
+  border-radius: 8px;
+  letter-spacing: 2px;
+  cursor: pointer;
+  background-color: lightgreen;
+  color: white;
+}
